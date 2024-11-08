@@ -7,7 +7,6 @@ function removeDuplicates(array: number[]): number[] {
     for (let j = 0; j < uniqueNumbers.length; j++) {
       if (array[i] === uniqueNumbers[j]) {
         isDuplicate = true;
-        break;
       }
     }
 
